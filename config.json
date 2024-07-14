@@ -1,0 +1,15 @@
+{
+    "om_url": "http://host.docker.internal:8080/",
+    "public_key": "gdqatfbz",
+    "private_key": "6edd1111-814a-495d-85da-cadc26589eb5",
+    "backup_clusters": {
+        "664322a90d6f3a4fd9b3be1b": ["667a6874dad6466cf3958381"]
+    },
+    "restore_job_config": {
+        "delivery": {
+            "expirationHours": 1,
+            "maxDownloads": 1,
+            "methodName": "HTTP"
+        }
+    }
+}
