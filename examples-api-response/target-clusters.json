@@ -1,0 +1,61 @@
+{
+	"sh0": {
+		"clusterName": "sh0",
+		"groupId": "664322a90d6f3a4fd9b3be1b",
+		"id": "664330b40d6f3a4fd9b3fff8",
+		"lastHeartbeat": "2024-05-14T22:35:06Z",
+		"links": [{
+			"href": "http://host.docker.internal:8080/api/public/v1.0/groups/664322a90d6f3a4fd9b3be1b/clusters/664330b40d6f3a4fd9b3fff8",
+			"rel": "self"
+		}],
+		"typeName": "SHARDED_REPLICA_SET",
+		"sub_clusters": [{
+			"clusterName": "sh0",
+			"groupId": "664322a90d6f3a4fd9b3be1b",
+			"id": "664330b40d6f3a4fd9b3fffa",
+			"lastHeartbeat": "2024-05-14T22:35:06Z",
+			"links": [{
+				"href": "http://host.docker.internal:8080/api/public/v1.0/groups/664322a90d6f3a4fd9b3be1b/clusters/664330b40d6f3a4fd9b3fffa",
+				"rel": "self"
+			}],
+			"replicaSetName": "shard_1",
+			"shardName": "shard_1",
+			"typeName": "REPLICA_SET"
+		}, {
+			"clusterName": "sh0",
+			"groupId": "664322a90d6f3a4fd9b3be1b",
+			"id": "664330b40d6f3a4fd9b3fffc",
+			"lastHeartbeat": "2024-05-14T22:35:06Z",
+			"links": [{
+				"href": "http://host.docker.internal:8080/api/public/v1.0/groups/664322a90d6f3a4fd9b3be1b/clusters/664330b40d6f3a4fd9b3fffc",
+				"rel": "self"
+			}],
+			"replicaSetName": "config",
+			"typeName": "CONFIG_SERVER_REPLICA_SET"
+		}, {
+			"clusterName": "sh0",
+			"groupId": "664322a90d6f3a4fd9b3be1b",
+			"id": "664330b40d6f3a4fd9b3fffe",
+			"lastHeartbeat": "2024-05-14T22:35:06Z",
+			"links": [{
+				"href": "http://host.docker.internal:8080/api/public/v1.0/groups/664322a90d6f3a4fd9b3be1b/clusters/664330b40d6f3a4fd9b3fffe",
+				"rel": "self"
+			}],
+			"replicaSetName": "shard_0",
+			"shardName": "shard_0",
+			"typeName": "REPLICA_SET"
+		}]
+	},
+	"rs0": {
+		"clusterName": "rs0",
+		"groupId": "664322a90d6f3a4fd9b3be1b",
+		"id": "66432f970d6f3a4fd9b3f456",
+		"lastHeartbeat": "2024-05-14T22:35:06Z",
+		"links": [{
+			"href": "http://host.docker.internal:8080/api/public/v1.0/groups/664322a90d6f3a4fd9b3be1b/clusters/66432f970d6f3a4fd9b3f456",
+			"rel": "self"
+		}],
+		"replicaSetName": "rs0",
+		"typeName": "REPLICA_SET"
+	}
+}
